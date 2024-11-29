@@ -1,0 +1,222 @@
+{
+    "Images": [
+        {
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "BlockDeviceMappings": [
+                {
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "Iops": 3000,
+                        "SnapshotId": "snap-0233effa8bad6990b",
+                        "VolumeSize": 35,
+                        "VolumeType": "gp3",
+                        "Throughput": 125,
+                        "Encrypted": false
+                    },
+                    "DeviceName": "/dev/xvda"
+                }
+            ],
+            "Description": "Supported EC2 instances: Inf1, Trn1, Trn1n, Inf2. Release notes: https://docs.aws.amazon.com/dlami/latest/devguide/appendix-ami-release-notes.html",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Deep Learning Base Neuron AMI (Amazon Linux 2) 20231127",
+            "RootDeviceName": "/dev/xvda",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "DeprecationTime": "2025-11-29T10:41:03.000Z",
+            "ImageId": "ami-00c34198de0c05a64",
+            "ImageLocation": "amazon/Deep Learning Base Neuron AMI (Amazon Linux 2) 20231127",
+            "State": "available",
+            "OwnerId": "898082745236",
+            "CreationDate": "2023-11-29T10:41:03.000Z",
+            "Public": true,
+            "Architecture": "x86_64",
+            "ImageType": "machine"
+        },
+        {
+            "PlatformDetails": "Linux/UNIX",
+            "UsageOperation": "RunInstances",
+            "BlockDeviceMappings": [
+                {
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-00fa0acecde0f15c9",
+                        "VolumeSize": 8,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    },
+                    "DeviceName": "/dev/sda1"
+                },
+                {
+                    "DeviceName": "/dev/sdb",
+                    "VirtualName": "ephemeral0"
+                },
+                {
+                    "DeviceName": "/dev/sdc",
+                    "VirtualName": "ephemeral1"
+                }
+            ],
+            "Description": "Canonical, Ubuntu Minimal, 20.04 LTS, amd64 focal image build on 2024-02-16",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "ubuntu-minimal/images/hvm-ssd/ubuntu-focal-20.04-amd64-minimal-20240216",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "BootMode": "legacy-bios",
+            "DeprecationTime": "2026-02-16T07:26:55.000Z",
+            "ImageId": "ami-00e0c373ffd0750c9",
+            "ImageLocation": "amazon/ubuntu-minimal/images/hvm-ssd/ubuntu-focal-20.04-amd64-minimal-20240216",
+            "State": "available",
+            "OwnerId": "099720109477",
+            "CreationDate": "2024-02-16T07:26:55.000Z",
+            "Public": true,
+            "Architecture": "x86_64",
+            "ImageType": "machine"
+        },
+        {
+            "PlatformDetails": "Windows",
+            "UsageOperation": "RunInstances:0002",
+            "BlockDeviceMappings": [
+                {
+                    "Ebs": {
+                        "DeleteOnTermination": true,
+                        "SnapshotId": "snap-0f69f5be70d20e7d3",
+                        "VolumeSize": 30,
+                        "VolumeType": "gp2",
+                        "Encrypted": false
+                    },
+                    "DeviceName": "/dev/sda1"
+                },
+                {
+                    "DeviceName": "xvdca",
+                    "VirtualName": "ephemeral0"
+                },
+                {
+                    "DeviceName": "xvdcb",
+                    "VirtualName": "ephemeral1"
+                },
+                {
+                    "DeviceName": "xvdcc",
+                    "VirtualName": "ephemeral2"
+                },
+                {
+                    "DeviceName": "xvdcd",
+                    "VirtualName": "ephemeral3"
+                },
+                {
+                    "DeviceName": "xvdce",
+                    "VirtualName": "ephemeral4"
+                },
+                {
+                    "DeviceName": "xvdcf",
+                    "VirtualName": "ephemeral5"
+                },
+                {
+                    "DeviceName": "xvdcg",
+                    "VirtualName": "ephemeral6"
+                },
+                {
+                    "DeviceName": "xvdch",
+                    "VirtualName": "ephemeral7"
+                },
+                {
+                    "DeviceName": "xvdci",
+                    "VirtualName": "ephemeral8"
+                },
+                {
+                    "DeviceName": "xvdcj",
+                    "VirtualName": "ephemeral9"
+                },
+                {
+                    "DeviceName": "xvdck",
+                    "VirtualName": "ephemeral10"
+                },
+                {
+                    "DeviceName": "xvdcl",
+                    "VirtualName": "ephemeral11"
+                },
+                {
+                    "DeviceName": "xvdcm",
+                    "VirtualName": "ephemeral12"
+                },
+                {
+                    "DeviceName": "xvdcn",
+                    "VirtualName": "ephemeral13"
+                },
+                {
+                    "DeviceName": "xvdco",
+                    "VirtualName": "ephemeral14"
+                },
+                {
+                    "DeviceName": "xvdcp",
+                    "VirtualName": "ephemeral15"
+                },
+                {
+                    "DeviceName": "xvdcq",
+                    "VirtualName": "ephemeral16"
+                },
+                {
+                    "DeviceName": "xvdcr",
+                    "VirtualName": "ephemeral17"
+                },
+                {
+                    "DeviceName": "xvdcs",
+                    "VirtualName": "ephemeral18"
+                },
+                {
+                    "DeviceName": "xvdct",
+                    "VirtualName": "ephemeral19"
+                },
+                {
+                    "DeviceName": "xvdcu",
+                    "VirtualName": "ephemeral20"
+                },
+                {
+                    "DeviceName": "xvdcv",
+                    "VirtualName": "ephemeral21"
+                },
+                {
+                    "DeviceName": "xvdcw",
+                    "VirtualName": "ephemeral22"
+                },
+                {
+                    "DeviceName": "xvdcx",
+                    "VirtualName": "ephemeral23"
+                },
+                {
+                    "DeviceName": "xvdcy",
+                    "VirtualName": "ephemeral24"
+                },
+                {
+                    "DeviceName": "xvdcz",
+                    "VirtualName": "ephemeral25"
+                }
+            ],
+            "Description": "Microsoft Windows Server 2016 with Desktop Experience Locale Dutch AMI provided by Amazon",
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "ImageOwnerAlias": "amazon",
+            "Name": "Windows_Server-2016-Dutch-Full-Base-2024.10.09",
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SriovNetSupport": "simple",
+            "VirtualizationType": "hvm",
+            "DeprecationTime": "2026-10-09T01:44:03.000Z",
+            "ImageId": "ami-0001a2475167245cd",
+            "ImageLocation": "amazon/Windows_Server-2016-Dutch-Full-Base-2024.10.09",
+            "State": "available",
+            "OwnerId": "801119661308",
+            "CreationDate": "2024-10-09T01:44:03.000Z",
+            "Public": true,
+            "Architecture": "x86_64",
+            "ImageType": "machine",
+            "Platform": "windows"
+        },
+        {
+            "

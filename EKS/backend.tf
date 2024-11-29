@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "mytodoappbucket"
+    bucket = "ferwebbucket"
     key    = "eks/terraform.tfstate"
-    region = "us-east-2"
+    region = "us-east-1"
   }
 }
